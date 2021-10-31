@@ -1,0 +1,37 @@
+
+.strikethrough {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.status {
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.statusCell {
+  text-align: center;
+}
+
+.unavailable {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: lightcoral;
+}
+
+.low {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: orange;
+}
+
+.discount {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: orange;
+}
+
+.item-cell {
+  box-sizing: border-box;
+  height: fit-content;
+}

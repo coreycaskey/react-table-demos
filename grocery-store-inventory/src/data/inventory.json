@@ -1,0 +1,272 @@
+[
+  {
+    "name": "1% Milk",
+    "brand": "Generic",
+    "category": "Drinks",
+    "price": 2.49,
+    "size": "1 gal",
+    "status": "Low Stock",
+    "discount": 0
+  },
+  {
+    "name": "2% Milk",
+    "brand": "Generic",
+    "category": "Drinks",
+    "price": 2.69,
+    "size": "1 gal",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Whole Milk",
+    "brand": "Generic",
+    "category": "Drinks",
+    "price": 2.89,
+    "size": "1 gal",
+    "status": "",
+    "discount": 0
+  },
+  {
+    "name": "Cheerios",
+    "brand": "General Mills",
+    "category": "Cereal",
+    "price": 4.99,
+    "size": "27 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Cinnamon Toast Crunch",
+    "brand": "General Mills",
+    "category": "Cereal",
+    "price": 4.99,
+    "size": "27 oz",
+    "status": "",
+    "discount": 0.5
+  },
+  {
+    "name": "Trix",
+    "brand": "General Mills",
+    "category": "Cereal",
+    "price": 4.99,
+    "size": "23 oz",
+    "status": "Low Stock",
+    "discount": 0
+  },
+  {
+    "name": "Frosted Flakes",
+    "brand": "Kellogg's",
+    "category": "Cereal",
+    "price": 4.49,
+    "size": "24 oz",
+    "status": "",
+    "discount": 0.1
+  },
+  {
+    "name": "Froot Loops",
+    "brand": "Kellogg's",
+    "category": "Cereal",
+    "price": 6.99,
+    "size": "27 oz",
+    "status": "",
+    "discount": 0.1
+  },
+  {
+    "name": "Eggs",
+    "brand": "Generic",
+    "category": "Eggs",
+    "price": 0.85,
+    "size": "12 ct",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "White Bread",
+    "brand": "Sara Lee",
+    "category": "Bread",
+    "price": 3.49,
+    "size": "20 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "White Bread",
+    "brand": "Pepperidge Farms",
+    "category": "Bread",
+    "price": 3.99,
+    "size": "20 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Wheat Bread",
+    "brand": "Generic",
+    "category": "Bread",
+    "price": 1.59,
+    "size": "20 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Chicken Breasts",
+    "brand": "Perdue",
+    "category": "Meat",
+    "price": 6.30,
+    "size": "3 ct",
+    "status": "Out of Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Chicken Breasts",
+    "brand": "Generic",
+    "category": "Meat",
+    "price": 9.41,
+    "size": "5 ct",
+    "status": "Out of Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Chicken Tenderloins",
+    "brand": "Perdue",
+    "category": "Meat",
+    "price": 4.72,
+    "size": "8 ct",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Chicken Tenderloins",
+    "brand": "Tyson",
+    "category": "Meat",
+    "price": 7.04,
+    "size": "8 ct",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Chicken Tenderloins",
+    "brand": "Generic",
+    "category": "Meat",
+    "price": 6.99,
+    "size": "8 ct",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Sprite",
+    "brand": "Coca-Cola",
+    "category": "Soft Drinks",
+    "price": 2.19,
+    "size": "2L",
+    "status": "Low Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Diet Coke",
+    "brand": "Coca-Cola",
+    "category": "Soft Drinks",
+    "price": 2.19,
+    "size": "2L",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Pepsi",
+    "brand": "PepsiCo",
+    "category": "Soft Drinks",
+    "price": 2.19,
+    "size": "2L",
+    "status": "Low Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Sierra Mist",
+    "brand": "PepsiCo",
+    "category": "Soft Drinks",
+    "price": 2.19,
+    "size": "2L",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Penne",
+    "brand": "Generic",
+    "category": "Pasta",
+    "price": 1.00,
+    "size": "16 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Rotini",
+    "brand": "Generic",
+    "category": "Pasta",
+    "price": 1.00,
+    "size": "16 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Rotini",
+    "brand": "Barilla",
+    "category": "Pasta",
+    "price": 1.59,
+    "size": "16 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Rotini",
+    "brand": "San Giorgio",
+    "category": "Pasta",
+    "price": 1.25,
+    "size": "16 oz",
+    "status": "Low Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Ketchup",
+    "brand": "Heinz",
+    "category": "Condiments",
+    "price": 2.99,
+    "size": "20 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Ketchup",
+    "brand": "Hunt's",
+    "category": "Condiments",
+    "price": 1.39,
+    "size": "20 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Mustard",
+    "brand": "Heinz",
+    "category": "Condiments",
+    "price": 1.99,
+    "size": "14 oz",
+    "status": "Out of Stock",
+    "discount": 0.15
+  },
+  {
+    "name": "Mustard",
+    "brand": "French's",
+    "category": "Condiments",
+    "price": 1.99,
+    "size": "14 oz",
+    "status": "",
+    "discount": 0.15
+  },
+  {
+    "name": "Pretzels",
+    "brand": "Rold Gold",
+    "category": "Snacks",
+    "price": 3.29,
+    "size": "16 oz",
+    "status": "Low Stock",
+    "discount": 0.15
+  }
+]
