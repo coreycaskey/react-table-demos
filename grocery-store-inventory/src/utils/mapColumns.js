@@ -3,6 +3,7 @@ import GenericCellRenderer from '../components/renderers/GenericCellRenderer';
 import ItemCellRenderer from '../components/renderers/ItemCellRenderer';
 import PriceCellRenderer from '../components/renderers/PriceCellRenderer';
 import StatusCellRenderer from '../components/renderers/StatusCellRenderer';
+import { discountFilter } from './discountFilter';
 
 const headers = ['Item', 'Price', 'Discount', 'Brand', 'Category', 'Status'];
 
@@ -59,6 +60,15 @@ const getCellRenderer = (name) => {
 
 export const mapColumns = () => {
   return headers.map((header) => {
+    if (header === 'Discount') {
+      return {
+        Header: header,
+        accessor: header.toLowerCase(),
+        Cell: getCellRenderer(header),
+        filter: discountFilter,
+      };
+    }
+
     return {
       Header: header,
       accessor: header.toLowerCase(),

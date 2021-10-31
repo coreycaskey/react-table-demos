@@ -27,3 +27,22 @@ table {
 // .headerCell {
 //   text-align: center;
 // }
+
+.top-table-options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom-table-options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.table-pagination-container {
+  display: flex;
+  width: auto;
+}

@@ -1,7 +1,22 @@
+import { useContext, useEffect } from 'react';
+import { TableContext } from '../../App';
 import styles from './Table.module.scss';
 
-const TableRows = ({ tableInstance }) => {
-  const { getTableBodyProps, rows, prepareRow } = tableInstance;
+const TableRows = () => {
+  const { tableInstance, itemFilter, categoryFilter, discountToggle } = useContext(TableContext);
+  const { getTableBodyProps, rows, prepareRow, setFilter } = tableInstance;
+
+  useEffect(() => {
+    setFilter('item', itemFilter);
+  }, [itemFilter]);
+
+  useEffect(() => {
+    setFilter('category', categoryFilter);
+  }, [categoryFilter]);
+
+  useEffect(() => {
+    setFilter('discount', discountToggle);
+  }, [discountToggle]);
 
   return (
     <tbody {...getTableBodyProps()}>
